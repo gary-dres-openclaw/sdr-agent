@@ -5,6 +5,21 @@
 - **Version:** 1.0.0
 - **Purpose:** Autonomous lead outreach, qualification, and appointment setting
 - **Owner:** NWA Automated
+- **Inspired by:** Vertex-Rainmaker V3 Architecture
+
+## Architecture (V3-Inspired)
+
+### Cognitive Layer (Brain)
+- MiniMax 2.5 for high-volume SDR tasks
+- Routing based on task complexity
+
+### Execution Layer (Hands)
+- Perceptual automation for web scraping
+- A-JWT for API security
+
+### Memory Layer
+- Outcome history tracking
+- Evolution engine for self-improvement
 
 ## Core Functions
 1. **Lead Research** - Find contact info, verify data
@@ -35,7 +50,7 @@
 - Sends calendar invites
 - Confirmation follow-ups
 
-## Self-Improvement System
+## Self-Improvement System (V3-Inspired)
 
 ### The Feedback Loop
 Every outreach outcome gets logged:
@@ -63,24 +78,11 @@ See `/evolution/` for the optimization system that:
 }
 ```
 
-## Usage
-
-```bash
-# Run outreach
-sdr-agent --action outreach --leads leads.csv
-
-# Log outcome
-sdr-agent --action log --lead lead-001 --outcome booked
-
-# Trigger evolution
-sdr-agent --action evolve
-```
-
 ## Clone & Sell
 
 This agent is designed to be:
 1. **Forkable** - Clone the repo, change config
-2. **Self-improving** - Gets smarter over time
+2. **Self-improving** - Gets smarter over time (V3 evolution engine)
 3. **White-label** - Swap branding, own it
 4. **Profitable** - Use for clients or sell the agent
 
@@ -92,4 +94,4 @@ This agent is designed to be:
 ---
 
 *SDR Agent - Built by Circuit for NWA Automated*
-*Self-improving via evolution engine*
+*Self-improving via V3-inspired evolution engine*
